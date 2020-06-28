@@ -191,4 +191,10 @@
     $(".icon-gouwuche").click(function(){
         location.href = "goodscar.html";
     })
+
+    // 是否登录
+    // let name = JSON.parse(localStorage.getItem("rongyao"));
+    if(name.id){
+        $(".login1").css("display","none");
+    }
 })

@@ -155,4 +155,11 @@
     $(".icon-gouwuche").click(function(){
         location.href = "goodscar.html";
     })
+
+    // 退出登录
+    $(".out").click(function(){
+        $(".lgre").css("display","block");
+        $(".name").css("display","none");
+        localStorage.removeItem("rongyao");
+    })
 })
