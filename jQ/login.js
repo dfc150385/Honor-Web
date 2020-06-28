@@ -7,7 +7,7 @@
         $.post("http://jx.xuzhixiang.top/ap/api/login.php", {username, password},
             function (resp) {
                 console.log(resp);
-                console.log(resp.data.id)
+                // console.log(resp.data.id)
                 let username = resp.data.username;
                 let id = resp.data.id;
                 if(resp.code == 1){
