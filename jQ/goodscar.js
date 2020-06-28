@@ -193,8 +193,22 @@
     })
 
     // 是否登录
-    // let name = JSON.parse(localStorage.getItem("rongyao"));
     if(name.id){
         $(".login1").css("display","none");
     }
+
+    // 登陆成功
+    // let name = JSON.parse(localStorage.getItem("rongyao"));
+    if(name){
+        $(".lgre").css("display","none");
+        $(".name").css("display","block");
+        $(".name").find("b").text(name.username);
+    }
+
+    // 退出登录
+    $(".out").click(function(){
+        $(".lgre").css("display","block");
+        $(".name").css("display","none");
+        localStorage.removeItem("rongyao");
+    })
 })
