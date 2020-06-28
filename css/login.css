@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 头部 */
+.header{height: 40px;width: 1280px;background-color: rgba(0,0,0,0.05);display: flex;}
+.header img{height: 40px;width: 100px;font-size: 10px;margin-left: 100px;}
+.header b{height: 16px;width: 1px;display: inline-block;vertical-align: middle;background: rgba(0,0,0,0.2);margin: 14px 0 0 10px;}
+.header span{height: 40px;width: 60px;font-size: 14px;margin-top: 11px;margin-left: 9px;font-weight: bold;}
+
+/* 登录区 */
+.login{height: 150px;width: 1280px;font-size: 26px;text-align: center;line-height: 150px;}
+.login1{height: 280px;width: 1280px;}
+.login1 .login2{height: 280px;width: 600px;display: flex;}
+.login2 .login2-1{height: 280px;width: 299px;border-right: 1px solid rgba(0,0,0,0.1);}
+.login2-1 img{height: 120px;width: 120px;margin: 42px 0 0 74px;border: 16px solid rgba(0,0,0,0.2);}
+.login2-1 span{height: 60px;line-height: 16px;width: 240px;display: block;margin: 18px 0 0 30px;font-size: 12px;color: #838383;}
+.login2 .login2-2{height: 280px;width: 300px;}
+.login2-2 input{text-indent: 12px;height: 40px;width: 230px;background-color: rgba(0,0,0,0.1);border: 1px;margin:0 0 24px 50px;border-radius: 10px;}
+.login2-2 .word{height: 30px;width: 300px;font-size: 12px;color: #0064cc;line-height: 10px;text-indent: 50px;}
+.login2-2 .btn{width: 230px;border: 1px;background: #CA141D;height: 40px;margin: 10px 0 0 50px;border-radius: 10px;font-size: 18px;color: #fff;font-weight: bold;}
+.login2-2 .brand{height: 40px;width: 230px;margin: 20px 0 0 50px;display: flex;justify-content: space-around;}
+.login2-2 span{display: block;height: 40px;width: 40px;font-size: 28px;line-height: 40px;text-align: center;}
+

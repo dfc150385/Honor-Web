@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* 头部 */
+header{height: 60px;width: 100%;z-index: 10;position: relative;background: url(../images/jpg/19.jpg) no-repeat 0px 0px /cover;}
+
+/* 轮播图 */
+nav{height: 550px;width: 100%;position: relative;}
+nav .banner{height: 550px;width: 100%;position: relative;overflow: hidden;}
+.banner ul{position: absolute; top: 0; left: 0;}
+.banner ul img{float: left;}
+.banner ol {position: absolute;right: 4%;bottom: 20px;z-index: 2;}
+.banner ol li{height: 10px;width: 10px;display: inline-block;cursor: pointer;border: 1px solid #f47500;color: #d94b01;border-radius: 5px;}
+.active {background: #fff;position: relative;bottom: 2px;}
+
+/* 导航栏 */
+.daoh{width: 100%;background-color: #d0142c;z-index: 20;position: fixed;top: 0;}
+.daoh ul{display: flex;height: 50px;width: 1200px;padding-top: 10px;}
+.daoh ul li{width: 200px;height: 40px;line-height: 40px;text-align: center;border-right: 1px solid #dc4f5f;}
+.daoh ul li:nth-child(5){border-right: none;}
+.daoh ul li a{display: inline;color: #fff;}
+
+/* 商品信息 */
+.list{height: 100%;width: 100%;background-color: #e73b4b;}
+
+/* 精品展示 */
+.list .super{position: relative;display: flex;width: 100%;height: 389px;background: url(../images/jpg/3.jpg) no-repeat -294px 0px/cover;}
+.list .super a{position: absolute;height: 120px;width: 170px;}
+.list .super a:nth-child(1){margin-left: 648px;margin-top: 79px;}
+.list .super a:nth-child(2){margin-left: 826px;margin-top: 79px;}
+.list .super a:nth-child(3){margin-left: 1003px;margin-top: 79px;}
+.list .super a:nth-child(4){margin-left: 1200px;margin-top: 79px;width: 43px;}
+.list .super a:nth-child(5){margin-left: 1200px;margin-top: 220px;width: 43px;}
+.list .super a:nth-child(6){margin-left: 916px;margin-top: 216px;width: 267px;height: 140px;}
+/* 618信息 */
+.list .img{width: 100%;height: 45px;background: url(../images/jpg/18.jpg) no-repeat -300px 0px / cover;}
+/* 返厂TOP榜 标题 */
+.list .fctb{height: 146px;background: url(../images/png/1.png) no-repeat -330px 0px / cover;}
+/* 返厂TOP榜商品列表 */
+.list .a-list1{height: 1600px;width: 100%;}
+.a-list1 .b-list1{width: 1200px;height: 1600px;display: flex;flex-wrap: wrap;justify-content: space-between;}
+.b-list1 .list-1{height: 520px;width: 290px;background: #fff;}
+.list-1 img{height: 350px;width: 290px;}
+.list-1 .list-12{position: absolute;margin-top: -30px;height: 30px;line-height: 30px;text-align: center;width: 150px;background: #d0142c;border-radius: 15px 15px 15px 0;}
+.list-1 .list-13{height: 30px;width: 290px;line-height: 30px;text-align: center;font-size: 25px;margin-top: 15px;}
+.list-1 .list-14{height: 30px;width: 290px;line-height: 30px;text-align: center;font-size: 15px;margin-top: 15px;color: #666;}
+.list-1 .list-15{margin-left: 85px;height: 30px;width: 120px;background: #000;color: #fff;line-height: 30px;text-align: center;margin-top: 20px;border-radius: 15px;font-size: 15px;}
+
+/* 父亲节专区 标题 */
+.list .fqj{height: 146px;background: url(../images/png/3.png) no-repeat -380px 0px / cover;}
+/* 父亲节专区商品列表 */
+.list .a-list2{height: 449px;width: 100%;margin-bottom: 20px;}
+.a-list2 .b-list2{height: 449px;width: 1200px;background-color: #fff;display: flex;}
+.b-list2 .b-list21{height: 449px;width: 392px;}
+.b-list21 .c-list21{margin-left: 60px;height: 250px;width: 280px;background: url(../images/png/29.png)no-repeat 0px 0px / 100% 100%;}
+.b-list21 li{width: 200px;text-align: center;margin-bottom: 15px;margin-left: 104px;}
+.b-list21 li:nth-child(2){height: 45px;line-height: 45px;font-size: 26px;font-weight: bold;}
+.b-list21 li:nth-child(3){height: 45px;line-height: 45px;font-size: 24px;color: #E26D79;}
+.b-list21 li:nth-child(4){height: 46px;line-height: 46px;background-color: #333333;border-radius: 25px;color:#fff;}
+/* 父亲节 商品列表 */
+.list .a-list3{height: 520px;width: 100%;}
+.a-list3 .b-list1{width: 1200px;height: 520px;display: flex;justify-content: space-between;}
+
+/* 爆款种草 */
+.list .bkzc{height: 146px;background: url(../images/png/2.png) no-repeat -330px 0px / cover;}
+/* 种草 商品 */
+.list .a-list4{height: 1060px;width: 100%;}
+.a-list4 .b-list1{width: 1200px;height: 1060px;display: flex;justify-content: space-between;flex-wrap: wrap;}
+
+/* 智慧生活 */
+.list .zhsh{height: 146px;background: url(../images/png/25.png) no-repeat -330px 0px / cover;}
+/* 智慧生活 商品 */
+.list .a-list5{height: 871px;width: 100%;}
+.a-list5 .b-list5{width: 1200px;height: 868px;position: relative;}
+.b-list5 .png{width: 1200px;}
+.b-list5 .b-list1{height: 520px;width: 1200px;position: absolute;display: flex;justify-content: space-between;}
+
+/* 更多福利 */
+.list .gdfl{height: 146px;background: url(../images/png/27.png) no-repeat -540px 0px / cover;}
+.list .a-list6{position: relative;height: 180px;width: 1200px;background: url(../images/png/31.png) no-repeat -360px 0px / cover;}
+.a-list6 a{position: absolute;height: 152px;width: 384px;}
+.a-list6 a:nth-child(1){margin-top: 12px;margin-left: 14px;}
+.a-list6 a:nth-child(2){margin-top: 12px;margin-left: 408px;}
+.a-list6 a:nth-child(3){margin-top: 12px;margin-left: 802px;}
+
+/* 按钮 */
+.list .btn{height: 554px;width: 100%;}
+.btn .a-list7{position: relative;height: 554px;width: 1200px;background: url(../images/png/32.png) no-repeat -360px 0px / cover;}
+.a-list7 a{position: absolute}
+.a-list7 a:nth-child(1){height: 76px;width: 211px;margin-top: 35px;margin-left: 348px;}
+.a-list7 a:nth-child(2){height: 76px;width: 211px;margin-top: 35px;margin-left: 645px;}
+.a-list7 a:nth-child(3){height: 42px;width: 690px;margin-top: 508px;margin-left: 497px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

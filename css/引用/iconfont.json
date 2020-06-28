@@ -1,0 +1,142 @@
+{
+  "id": "1897890",
+  "name": "荣耀商城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "425654",
+      "name": "自助服务",
+      "font_class": "zizhufuwu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "458800",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "724320",
+      "name": "商品列表",
+      "font_class": "shangpinliebiao",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "851708",
+      "name": "回到顶部",
+      "font_class": "huidaodingbu",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "866496",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "930327",
+      "name": "后退",
+      "font_class": "203",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "979786",
+      "name": "支付宝",
+      "font_class": "zhifubao2",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1222450",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "2690029",
+      "name": "前进",
+      "font_class": "qianjin",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "2724157",
+      "name": "前进",
+      "font_class": "qianjin-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "2826344",
+      "name": "邮件",
+      "font_class": "youjian",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "7145556",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "7738694",
+      "name": "二维码",
+      "font_class": "qrcode",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "10528960",
+      "name": "前进",
+      "font_class": "qianjin1",
+      "unicode": "ecd1",
+      "unicode_decimal": 60625
+    },
+    {
+      "icon_id": "10693833",
+      "name": "更换",
+      "font_class": "genghuan",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "13579913",
+      "name": "前进",
+      "font_class": "qianjin2",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "13862462",
+      "name": "前进",
+      "font_class": "tuanduicankaoxian_huaban",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "14289922",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "14421735",
+      "name": "放大镜",
+      "font_class": "fangdajing_huaban1",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}

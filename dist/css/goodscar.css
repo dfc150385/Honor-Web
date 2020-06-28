@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/* 我的 */
+.mine{height: 70px;width: 1280px;background-color: #fff;display: flex;}
+.mine .hua{height: 40px;width: 100px;margin-top: 15px;margin-left: 50px;background: url(../images/png/45.png) no-repeat 0px 0px / 100% 100%;}
+.mine span{height: 40px;width: 200px;line-height: 40px;font-size: 25px;color: #000;margin-top: 15px;margin-left: 25px;background-color: #fff;}
+
+/* 背景页面 */
+.all{min-height: 280px;width: 1280px;background-color: #f5f5f5;padding-top: 20px;}
+/* 是否登录 */
+.all .login1{height: 40px;width: 1180px;background: #fffdee;display: flex;padding-top: 10px;border: 1px solid #eace85;border-radius: 4px;margin-bottom: 20px;}
+.login1 span{height: 30px;font-size: 14px;text-align: center;line-height: 30px;}
+.login1 span:nth-child(1){width: 24px;color: #ca141d;margin-left: 20px;}
+.login1 span:nth-child(2){width: 280px;color:#ca141d;}
+.login1 .login2{display: inline-block;width: 60px;color: #fff;background-color: #ca141d;border-radius: 4px;margin-left: 20px;height: 30px;line-height: 30px;text-align: center;}
+
+/* 全选按钮1 */
+.allcheck{height: 40px;width: 1180px;display: flex;background-color: #fff;margin-top: 10px;margin-bottom: 10px;}
+.allcheck input{height: 20px;width: 20px;margin: 10px 0 0 30px;}
+.allcheck span{height: 30px;width: 30px;font-size: 11px;line-height: 30px;text-align: center;color: #000;margin: 5px 0 0 10px;}
+.allcheck span:nth-child(3){margin-left: 80px;}
+.allcheck span:nth-child(4){margin-left: 480px;}
+.allcheck span:nth-child(5){margin-left: 90px;}
+.allcheck span:nth-child(6){margin-left: 90px;}
+.allcheck span:nth-child(7){margin-left: 120px;}
+
+/* 购物车数据 */
+.all .datacar{height: 500px;width: 1180px;background-color: #fff;position: relative;}
+/* 具体信息 */
+.datacar .data1{height: 100px;width: 1100px;margin-left: 40px;display: flex;cursor: pointer;}
+.data1 input:nth-child(1){height: 20px;width: 20px;margin-top: 40px;}
+.data1 img{height: 80px;width: 80px;margin: 10px 0 0 20px;}
+.data1 span:nth-child(3){height: 80px;width: 300px;line-height: 20px;font-size: 14px;margin: 10px 0 0 12px;}
+.data1 span:nth-child(4){height: 30px;width: 60px;margin: 35px 0 0 196px;font-size: 12px;line-height: 30px;text-align: center;}
+.data1 span:nth-child(5){height: 20px;width: 20px;margin: 40px 0 0 52px;border: 1px solid #d6d6d6;line-height: 16px;text-align: center;font-size: 30px;}
+.data1 span:nth-child(7){height: 20px;width: 20px;margin-top: 40px;border: 1px solid #d6d6d6;line-height: 16px;text-align: center;font-size: 26px;}
+.data1 input:nth-child(6){height: 20px;width: 30px;border: 1px solid #d6d6d6;margin-top: 40px;font-size: 16px;line-height: 20px;text-align: center;}
+.data1 span:nth-child(8){height: 30px;width: 60px;margin: 35px 0 0 60px;font-size: 12px;line-height: 30px;text-align: center;}
+.data1 span:nth-child(9){height: 30px;width: 30px;margin: 35px 0 0 96px;line-height: 30px;text-align: center;font-size: 14px;}
+
+/* 全选按钮2 */
+.allcheck1{cursor: pointer;height: 40px;width: 1180px;display: flex;background-color: #fff;margin-top: 10px;margin-bottom: 10px;}
+.allcheck1 input{height: 20px;width: 20px;margin-top: 5px;margin: 10px 0 0 30px;}
+.allcheck1 span{height: 30px;width: 30px;font-size: 11px;line-height: 30px;text-align: center;color: #000;margin: 5px 0 0 10px;}
+.allcheck1 span:nth-child(3){margin-left: 20px;}
+.allcheck1 span:nth-child(4){margin-left: 700px;}
+.allcheck1 span:nth-child(5){width: 100px;}
+.allcheck1 span:nth-child(6){margin-left: 90px;width: 120px;height: 40px;background-color: #ca151e;color: #fff;font-size: 18px;margin-top: 0;line-height: 40px;}
+
+/* 去逛逛 */
+.all .please{height: 120px;width: 280px;position: absolute;left: 520px;top: 400px;cursor: pointer;}
+.please div{height: 60px;line-height: 60px;width: 280px;text-align: center;}
+.please div:nth-child(1){font-size: 18px;color: #a4a4a4;}
+.please div:nth-child(2){width: 150px;height: 40px;background-color: #ca141d;line-height: 40px;margin-left: 65px;color: #fff;}
+
+/* 热销单品 */
+.one{margin: 10px 0 10px 40px;}
+.goods{background-color: #fff;}
+
+
+
+
